@@ -1,0 +1,7 @@
+image: josephgeorgek/mfetest-2:0.0.1-SNAPSHOT
+dbms: postgresql
+healthCheckPath: "/management/health"
+roles:
+  - "mfetest2-admin"
+  - "conference-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
